@@ -1,7 +1,25 @@
 body {
+  background-image: url(space.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 
 }
 
+section {
+  padding-top: 20px;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+  color: white;
+  font-family: 'Audiowide', cursive;
+}
+
+p, ul {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
 
 /*TopNav Style Section
 __________________________*/
@@ -10,7 +28,13 @@ __________________________*/
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-bottom-style: solid;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+
+  background-color: #D7AEC4;
 }
 
 .LeftNav {
@@ -40,7 +64,17 @@ h4 {
 
 .RightNav a {
   text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  margin: 5px;
 }
+
+.RightNav a:hover {
+  background-color: #8C667A;
+}
+
+/*INDEX.HTML STYLES*/
 
 /*PlumbusFeatures Style Section
 __________________________*/
@@ -51,10 +85,148 @@ __________________________*/
   justify-content: space-around;
   width: 90%;
   margin: 0 auto;
+  padding-top: 100px;
 
 }
 
 .PlumContent {
   margin-left: 10px;
   width: 500px;
+}
+
+.PlumFeatures {
+  list-style-type: armenian;
+  padding-left: 20px;
+}
+
+#PlumbusFeatures h1 {
+  text-align: center;
+}
+
+
+
+/*MostCommonUses Style Section
+__________________________*/
+
+#MostCommonUses {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#MostCommonUses img {
+  border: 3px solid black;
+}
+
+#MostCommonUses p {
+  margin: 2px;
+}
+
+
+/*MostCommonUses Style Section
+__________________________*/
+
+#IncludedWith {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#EightFeatures {
+  width: 900px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/*SafetyFirst Style Section
+__________________________*/
+
+#SafetyFirst {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#SafetyFirst h6 {
+  font-size: 10px;
+  margin: 0;
+}
+
+#SafetyFirst p {
+  font-size: 8px;
+}
+
+
+/*ABOUT.HTML STYLES*/
+
+.company {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.CompanyImage {
+  display: block;
+  margin: 0 auto;
+}
+
+.employee {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 20px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.photos {
+  width: 325px;
+  height: 325px;
+  position: relative;
+}
+
+.teammember {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.location {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  box-shadow: -5px -5px 5px white;
+}
+
+.teammembertwo {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.locationtwo {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  box-shadow: 5px -5px 5px white;
+}
+
+.empright {
+  text-align: right;
 }
