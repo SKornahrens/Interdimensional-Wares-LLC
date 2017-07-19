@@ -1,9 +1,9 @@
 body {
   background-image: url(space.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 
 }
 
@@ -83,20 +83,23 @@ __________________________*/
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 90%;
+  width: 70%;
   margin: 0 auto;
   padding-top: 100px;
-
 }
 
 .PlumContent {
   margin-left: 10px;
-  width: 500px;
+  width: 600px;
+}
+
+.PlumContent h2 {
+  margin-top: 30px;
 }
 
 .PlumFeatures {
   list-style-type: armenian;
-  padding-left: 20px;
+  padding-left: 30px;
 }
 
 #PlumbusFeatures h1 {
@@ -109,7 +112,7 @@ __________________________*/
 __________________________*/
 
 #MostCommonUses {
-  width: 90%;
+  width: 70%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -117,7 +120,7 @@ __________________________*/
 }
 
 #MostCommonUses img {
-  border: 3px solid black;
+  box-shadow: 5px 5px 5px #D7AEC4;
 }
 
 #MostCommonUses p {
@@ -125,7 +128,7 @@ __________________________*/
 }
 
 
-/*MostCommonUses Style Section
+/*IncludedWith Style Section
 __________________________*/
 
 #IncludedWith {
@@ -136,12 +139,22 @@ __________________________*/
   align-items: center;
 }
 
+
 #EightFeatures {
   width: 900px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.feature {
+    padding-top: 10px;
+}
+
+.feature img {
+  box-shadow: 5px 5px 5px #D7AEC4;
+
 }
 
 /*SafetyFirst Style Section
@@ -173,6 +186,10 @@ __________________________*/
   padding-top: 100px;
 }
 
+.company h1 {
+  text-align: center;
+}
+
 .CompanyImage {
   display: block;
   margin: 0 auto;
@@ -185,6 +202,15 @@ __________________________*/
   padding-bottom: 20px;
   width: 70%;
   margin: 0 auto;
+}
+
+.EmployeeSection {
+  display: block;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  text-align: center;
+  width: 70%;
 }
 
 .photos {
@@ -207,7 +233,7 @@ __________________________*/
   position: absolute;
   bottom: 0;
   right: 0;
-  box-shadow: -5px -5px 5px white;
+  box-shadow: -5px -5px 5px #D7AEC4;
 }
 
 .teammembertwo {
@@ -224,9 +250,20 @@ __________________________*/
   position: absolute;
   bottom: 0;
   left: 0;
-  box-shadow: 5px -5px 5px white;
+  box-shadow: 5px -5px 5px #D7AEC4;
 }
 
 .empright {
   text-align: right;
+}
+
+.aboutemployee {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+footer {
+  display: block;
+  text-align: center;
 }
