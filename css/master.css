@@ -90,6 +90,7 @@ __________________________*/
 .introplum {
   -webkit-animation: rainbow 1s infinite;
   font-size: 50px;
+  font-weight: bold;
 }
 
 
